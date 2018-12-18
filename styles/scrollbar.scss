@@ -1,0 +1,42 @@
+
+.nav-scroll {
+  display: flex;
+  background-color: #f9f9f9;
+  height: 52px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+  .nav-scroll-nav {
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+  
+    z-index: 1;
+    align-self: center;
+    // Hide scrollbar
+    padding-bottom: 30px;
+    margin-bottom: -30px;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+  
+    .nav-scroll-content {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      white-space: nowrap;
+    }
+
+      .nav-scroll-item {
+        flex: 1 0 auto;
+        display: block;
+        font-size: 1.125rem;
+        text-align: center;
+        padding: .2rem 2rem;
+        text-decoration: none;
+        color:#000;
+      }
+
+
+
